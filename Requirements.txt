@@ -1,0 +1,9 @@
+certifi==2019.3.9
+chardet==3.0.4
+filehash==0.1.dev3
+glob3==0.0.1
+idna==2.8
+pkg-resources==0.0.0
+requests==2.21.0
+sndboxapi==3.0
+urllib3==1.24.3
