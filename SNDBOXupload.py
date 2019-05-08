@@ -42,6 +42,9 @@ for filename in sample_list:
         print("[*] New sample found! - " + hash)
         try:
             upload_response = SNDBOX.submit(apikey=apikey,file=filename,email=False)
+            if upload_response == False:
+                continue
+
         except Exception as e:
             f= open(patherror,"a+")
             f.write(file + " Failed to upload: " + str(e) + "\n")
