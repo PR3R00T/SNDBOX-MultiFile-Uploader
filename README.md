@@ -11,7 +11,11 @@ Clone this Repo:
 
     git clone https://github.com/PR3R00T/SNDBOX-MultiFile-Uploader.git
 
-You will need a Free SNDBOX account (https://app.sndbox.com/register) Once completed navigate to the User Settings -> API key and copy the key. 2.Place the key into the variable: apikey in the SNDBOXupload.py script. (nano SNDBOXupload.py)
+You will need a Free SNDBOX account (https://app.sndbox.com/register) Once completed navigate to the User Settings -> API key and copy the key.
+
+2.Place the key into the variable: apikey in the SNDBOXupload.py script. 
+
+    nano SNDBOXupload.py
 
 3.Install the Requirements.txt: 
 
