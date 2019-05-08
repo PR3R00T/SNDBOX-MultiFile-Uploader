@@ -7,23 +7,31 @@ Combining this script with a cron job, all samples for each day will be checked 
 
 To operate the Uploader, follow the instructions:
 
-    Clone this Repo: git clone https://github.com/PR3R00T/SNDBOX-MultiFile-Uploader.git
+Clone this Repo: 
+
+    git clone https://github.com/PR3R00T/SNDBOX-MultiFile-Uploader.git
 
 You will need a Free SNDBOX account (https://app.sndbox.com/register) Once completed navigate to the User Settings -> API key and copy the key. 2.Place the key into the variable: apikey in the SNDBOXupload.py script. (nano SNDBOXupload.py)
 
-3.Install the Requirements.txt: pip3 install -r Requirements.txt
+3.Install the Requirements.txt: 
 
-4.Give the file execute permissions: chmod +x SNDBOXupload.py
+    pip3 install -r Requirements.txt
 
-5.run the script: ./SNDBOXupload.py
+4.Give the file execute permissions: 
+
+    chmod +x SNDBOXupload.py
+
+5.run the script: 
+
+    ./SNDBOXupload.py
 
 Log files are created within: /data/ folder if any issues occur, check the SNDBOXuploaderror log.
 
 If you would like to automate this script add a cron job:
 
-    launch crontab with: crontab -e
+ launch crontab with: crontab -e
 
-    append to the end (change the times if required):
+ append to the end (change the times if required):
 
 m h dom mon dow command
 
